@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/424b6619d9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="search__container">
+        <img src="Pictures/Weather Logo.png" alt="" class="logo">
+        <h1 class="main__title">The Weather App</h1>
+        <div class="searchbox__bottom">
+            <input type="text" placeholder="Search City" class="input__search">
+            <button class="input__search__buton"><i class="fa-brands fa-searchengin"></i></button>
+        </div>
+    </div>
+    <div class="weather__container">
+        <div class="weather__container__inner">
+        <div class="img__container">
+           <iframe src="" frameborder="0" class="weather-animation"></iframe>
+        </div>
+        <label for="" class="weather__type"> </label>
+        <div class="weather__deg__container">
+            <h2 class="weather__number"></h2>
+            <label for="" class="deg__label">°C</label>
+        </div>
+        <h2 class="city__name"></h2>
+        <div class="conditions__container">
+            <div class="humidity__container">
+                <iframe src="Pictures/wi_humidity.svg" frameborder="0" class="down__logo"></iframe>
+                <h2 class="humid__number"></h2>
+                <label for="">%</label>
+            </div>
+            <div class="wind__container">
+                <iframe src="Pictures/wi_wind.svg" frameborder="0" class="down__logo"></iframe>
+                <h2 class="wind__number"></h2>
+                <label for="">km/h</label>
+            </div>
+        </div>
+    </div>
+ </div>
+    <script src="mainScript.js"></script>
+</body>
+</html>
