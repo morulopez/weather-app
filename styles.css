@@ -7,9 +7,8 @@ body{
     flex-wrap: wrap;
 }
 .search__container{
-    flex:1;
     height: 99vh;
-    width: 50%;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +16,8 @@ body{
 }
 
 .weather__container{
-    flex:1;
     height: 99vh;
-    width: 50%;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,4 +159,10 @@ body{
 }
 .conditions__container label{
     font-size: 100%
+}
+
+@media only screen and (max-width: 658px) {
+    .search__container,.weather__container{
+        width:100%;
+    }
 }
